@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
         <div className='footer__container container'>
-            <h1 className='footer__title'>Jonny</h1>
+            <h1 className='footer__title'>Fezhull</h1>
             <ul className='footer__list'>
                 <li>
                     <a href="#about" className='footer__link'>About</a>
@@ -16,34 +16,30 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#testimonials" className='footer__link'>Testimonials</a>
+                    <a href="#skills" className='footer__link'>Skills</a>
                 </li>
 
             </ul>
-
             <div className='footer__social'>
-            <a href='https://www.facebook.com/'
+            <a href='https://www.linkedin.com/'
              className='footer__social-link'
               target='_blank'>
-            <i class="bx bxl-facebook"></i>
+            <i class="bx bxl-linkedin"></i>
         </a>
-        <a href='https://instagram.com/' 
+        <a href='https://dribbble.com/' 
         className='footer__social-link' 
         target='_blank'>
-            <i class="bx bxl-instagram"></i>
+            <i class="bx bxl-dribbble"></i>
         </a>
-        <a href='https://twitter.com/'
+        <a href='https://github.com/'
          className='footer__social-link'
           target='_blank'>
-            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-github"></i>
         </a>
             </div>
             <span className='footer__copy'>&#169; Henjos.Fenc .all rights reserved</span>
-
         </div>
-
     </footer>
   )
 }
-
 export default Footer

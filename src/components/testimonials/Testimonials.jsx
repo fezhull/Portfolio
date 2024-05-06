@@ -47,9 +47,7 @@ const Testimonials = () => {
                     <h3 className='testimonial__name'>{title}</h3>
                     <p className='testimonial__description'>{description}
                     </p>
-
-                    </SwiperSlide>
-                          
+                    </SwiperSlide>        
                 );
             })}
         </Swiper>

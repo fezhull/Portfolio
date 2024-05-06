@@ -1,21 +1,28 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/about.jpg"
-import Cv from "../../assets/John-Cv.pdf"
+import AboutImg from "../../assets/about2.jpeg"
+// import Cv from "../../assets/John-Cv.pdf"
 import Info from './Info'
 const About = () => {
   return (
     <section className='about section'id='about'>
-        <h2 className='section__title'>About Me</h2>
-        <span className='section__subtitle'>My introduction</span>
+        <h2 className='section__title'>About</h2>
+        <span className='section__subtitle'>My Introduction</span>
         <div className='about__container container grid'>
             <img src={AboutImg} alt="" className='about__img' />
             <div className='about__data'>
                 <Info/>
                 <p className='about__description'>
-                    Frontend developer, I create web pages with ui/ux user interface, i have years of experience and many cliens are happt with the prjects carried out
+                    I'm a dynamic mobile and web Developer passionate about
+                    translating ideas into captivating digital experiences.
+                    With expertise in iOS,Android, and web technologies, I'm
+                    dedicated to crafting innovative solutions that engage
+                    users effectively.
+                    
                 </p>
-                <a download="" href={Cv} className='button button--flex'>Download CV
+                <a download="" 
+                // href={""} 
+                className='button button--flex'>Download CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
