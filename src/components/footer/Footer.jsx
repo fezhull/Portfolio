@@ -26,10 +26,10 @@ const Footer = () => {
               target='_blank'>
             <i class="bx bxl-linkedin"></i>
         </a>
-        <a href='https://dribbble.com/' 
+        <a href='https://flutterpro.dev/' 
         className='footer__social-link' 
         target='_blank'>
-            <i class="bx bxl-dribbble"></i>
+            <i class="bx bxl-flutter"></i>
         </a>
         <a href='https://github.com/'
          className='footer__social-link'

@@ -17,6 +17,8 @@
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+    border-radius: 2.25rem;
+    color: var(--title-color-dark)
 }
 .nav__list{
     display: flex;

@@ -6,13 +6,13 @@ import Work5 from "../../assets/img.png";
 import Work6 from "../../assets/imga.jpg";
 
 
-
 export const projectsData = [
     {
         id: 1,
         image:  Work1,
         title: 'Authenication App',
         category: 'web',
+        
     },
     {
         id: 2,
