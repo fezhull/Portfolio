@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 const WorkItems = ({item}) => {
   return (
@@ -13,4 +13,4 @@ const WorkItems = ({item}) => {
   );
 };
 
-export default WorkItems
+export default WorkItems */

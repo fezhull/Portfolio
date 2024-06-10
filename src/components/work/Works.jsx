@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { projectsData } from './Data';
@@ -49,4 +49,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default Works; */

@@ -9,19 +9,19 @@ const data = [
         id:1,
         image:Image1,
         title: "Mobile Development",
-        description:"Services with more than 6 years of experience. Providing quality work,modern and moible-ready application that will help you reach all of your marketing. "
+        description:"4 years of experience in Providing quality work,modern and moible-ready application that will help you reach all of your marketing. "
     },
     {
         id:2,
         image:Image2,
         title: "Frontend Development",
-        description:"Services with more than 6 years of experience. Providing quality work to clients and companies. "
+        description:"Services with more than 5 years of experience. developing modern and mobile-ready website with intuitive interfaces and delighful user experiences. "
     },
     {
         id:3,
         image:Image3,
         title: "Api Development",
-        description:"Devloping a highly secure, fast and Services with more than 6 years of experience. Providing quality work to clients and companies. "
+        description:"Developing a highly secure, fast and scalable APIs both REST and GraphQL with more than 4 years of experience. Providing quality work to clients and companies. "
     },
 ]
 

@@ -1,64 +1,57 @@
 import Work1 from "../../assets/wworkk.png";
-import Work2 from "../../assets/mm.png";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/tow.png";
-import Work5 from "../../assets/img.png";
-import Work6 from "../../assets/imga.jpg";
+import Work2 from "../../assets/books.png";
+import Work3 from "../../assets/mm.png";
+import Work4 from "../../assets/work3.png";
+import Work5 from "../../assets/tow.png";
+import Work6 from "../../assets/img.png";
+import Work7 from "../../assets/cash wallet1 (1).png";
 
 
-export const projectsData = [
+
+const Data = [
     {
         id: 1,
         image:  Work1,
-        title: 'Authenication App',
-        category: 'web',
-        
+        title: 'Flutter firebase Authenication App',
+        category: 'Mobile Apps',        
     },
     {
         id: 2,
         image: Work2,
         title: 'Betting App Clone',
-        category: 'app',
+        category: 'Mobile Apps',
     },
     {
         id: 3,
-        image: Work3,
-        title: 'Brand design',
-        category: 'design',
+        image: Work6,
+        title: 'Cash wallet',
+        category: 'Mobile Apps',
     },
     {
         id: 4,
-        image: Work4,
-        title: 'Ecommerce App',
-        category: 'app',
+        image: Work3,
+        title: 'Brand design',
+        category: 'Web Apps',
     },
     {
         id: 5,
-        image: Work5,
-        title: 'Ecommerce Car Collection',
-        category: 'app',
+        image: Work4,
+        title: 'Food App & chefs bookings',
+        category: 'Mobile Apps',
     },
     {
         id: 6,
+        image: Work5,
+        title: 'flutter Ecommerce Car Collection',
+        category: 'Mobile Apps',
+    },
+    {
+        id: 7,
         image: Work6,
-        title: 'Youtube Clone',
-        category: 'web',
-    },
-
-];
-
-export const projectsNav = [
-    {
-        name: 'all',
-    },
-    
-    {
-        name: 'app',
-    },
-    {
-        name: 'web',
-    },
-    {
-        name:'design',
+        title: 'Cash wallet',
+        category: 'Mobile Apps',
     },
 ];
+
+export  default Data 
+

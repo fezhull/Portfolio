@@ -30,7 +30,7 @@
     border-radius: 1rem;
 }
 .work__img{
-    width: 295px;
+    width: 255px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+   
 }
 .work__button-icon{
     font-size: 1rem;
@@ -53,6 +54,15 @@
 .work__button:hover .work__button-icon{
     transform: translateX(0.25rem);
 }
+.button{
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+  
+    align-items: center;
+    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
 
 /*active work*/
 .active-work {
@@ -60,7 +70,7 @@
     color: var(--container-color);
 }
 
-/*--------------breakpoints-------*/
+/* --------------breakpoints-------*/
 /*For large devices */
 @media screen and (max-width:992px){
     .work__container{

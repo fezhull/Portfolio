@@ -5,6 +5,12 @@
 .footer__container{
     padding:2rem 0 6rem;
 }
+.nav__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 .footer__title,
 .footer__link{
     color: var(--title-color);
