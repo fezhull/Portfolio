@@ -50,20 +50,20 @@ const Qualification = () => {
                 </div>
 
                 <div>
-                    <h3 className='qualification__title'>Mobile Developer</h3>
-                    <span className='qualification__subtitle'>Udemy - Institute</span>
+                    <h3 className='qualification__title'>web Developer</h3>
+                    <span className='qualification__subtitle'>Eduonix - Institute</span>
                     <div className='qualification__calender'>
-                        <i className='uil uil-calander-alt'></i> 2020 - 2021
+                        <i className='uil uil-calander-alt'></i>  2018 - 2019
                     </div>
                 </div>               
             </div>
 
             <div className='qualification__data'>
                 <div>
-                    <h3 className='qualification__title'>Web Developer</h3>
-                    <span className='qualification__subtitle'>Eduonix - Institute</span>
+                    <h3 className='qualification__title'> Mobile Developer </h3>
+                    <span className='qualification__subtitle'>Udemy - Institute</span>
                     <div className='qualification__calender'>
-                        <i className='uil uil-calander-alt'></i> 2018 - 2020
+                        <i className='uil uil-calander-alt'></i> 2019 - 2021
                     </div>
                 </div>
                 <div>
@@ -85,7 +85,7 @@ const Qualification = () => {
                     <h3 className='qualification__title'>Information and Technology</h3>
                     <span className='qualification__subtitle'>Meru University of Science and Technology</span>
                     <div className='qualification__calender'>
-                        <i className='uil uil-calander-alt'></i> 2012 - 2015
+                        <i className='uil uil-calander-alt'></i> 2012 - 2017
                     </div>
                 </div>               
             </div>
@@ -114,11 +114,43 @@ const Qualification = () => {
 
                 <div>
                     <h3 className='qualification__title'>Frontend Developer</h3>
-                    <span className='qualification__subtitle'>Hivecom Limited - Kenya</span>
+                    <span className='qualification__subtitle'>Vertex-Hub - Kenya</span>
                     <div className='qualification__calender'>
                         <i className='uil uil-calander-alt'></i> 2020 - 2021
                     </div>
-                </div>               
+                </div>  
+                             
+            </div>
+            
+            <div className='qualification__data'>
+                <div>
+                    <h3 className='qualification__title'>Freelancer Mobile Developer</h3>
+                    <span className='qualification__subtitle'>Freelancer - Kenya</span>
+                    <div className='qualification__calender'>
+                        <i className='uil uil-calander-alt'></i> 2021 - 2022
+                    </div>
+                </div>
+                <div>
+                    <span className='qualification__rounder'></span>
+                    <span className='qualification__line'></span>
+                </div>
+            </div>
+            <div className='qualification__data'>
+                <div></div>
+                
+                <div>
+                    <span className='qualification__rounder'></span>
+                    <span className='qualification__line'></span>
+                </div>
+
+                <div>
+                    <h3 className='qualification__title'>Intern Developer</h3>
+                    <span className='qualification__subtitle'>IHub and CCHub company - Kenya</span>
+                    <div className='qualification__calender'>
+                        <i className='uil uil-calander-alt'></i> 2017 - 2018
+                    </div>
+                </div>  
+                             
             </div>
             <div className='qualification__data'>
                 <div>

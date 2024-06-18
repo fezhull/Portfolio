@@ -47,7 +47,19 @@ const Data = [
     },
     {
         id: 7,
-        image: Work6,
+        image: Work7,
+        title: 'Cash wallet',
+        category: 'Mobile Apps',
+    },
+    {
+        id: 8,
+        image: Work7,
+        title: 'Cash wallet',
+        category: 'Mobile Apps',
+    },
+    {
+        id: 9,
+        image: Work7,
         title: 'Cash wallet',
         category: 'Mobile Apps',
     },

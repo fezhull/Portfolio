@@ -12,7 +12,16 @@ const Contact = () => {
       .sendForm('service_b17b013', 'template_we5zqfo', form.current, {
         publicKey: 'e9562SbMqaWFN6dKo',
       })
-     e.target.reset()
+      
+         .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text);
+        // Optionally handle success behavior like showing a success message
+        e.target.reset(); // Reset the form after successful submission
+      })
+      .catch((error) => {
+        console.error('Email sending failed:', error);
+        // Optionally handle error states and display an error message
+      });
   };
   return (
     <section className='contact section' id='contact'>
@@ -46,12 +55,12 @@ const Contact = () => {
                     </div>
 
                     <div className='contact__card'>
-                        <i className='bx bxl-messenger contact__card-icon'></i>
+                        <i className='bx bxl-twitter contact__card-icon'></i>
 
-                        <h3 className='contact__card-title'>Messenger</h3>
-                        <span className='contact__card-data'>user.fez</span>
+                        <h3 className='contact__card-title'>Twitter</h3>
+                        <span className='contact__card-data'>@Fezhull</span>
 
-                        <a href="https://m.me/fezhull" className='contact__button'>Write me{" "} <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
+                        <a href="https://x.com/fezhull?lang=en" className='contact__button'>Write me{" "} <i className='bx bx-right-arrow-alt contact__button-icon'></i></a>
                         
 
                     </div>

@@ -38,47 +38,59 @@ const App = () => {
       <div className='work__container grid'>
       <Card
       imgsrc={require("./assets/work3.png" )}
-      title=" E-commerce website"
-      sname="Reactjs Web App"
-      link="https://www.netflix.com/in/"
+      title=" Digital Fashion Outlet."
+      sname="React.js web application"
+      link="https://reactjs-clothestores.netlify.app"
     />
     <Card
       imgsrc={require("./assets/books.png" )}
-      title=" E-commerce Bookstore"
-      sname="Reactjs Web App"
-      link="https://www.youtube.com/watch?v=Czr1pspCsjc"
+      title=" Online Bookshop"
+      sname="React.js web application"
+      link="https://reactjs-bookstore.netlify.app"
     />
       <Card
       imgsrc={require("./assets/wworkk.png" )}
-      title="Flutter $ Firebase Authenication App"
-      sname="Flutter Mobile App"
-      link="https://www.netflix.com/in/"
+      title="Firebase authentication"
+      sname="Flutter application"
+      link="https://flutter-firebase-auth.netlify.app/"
     />
     
     <Card
       imgsrc={require("./assets/rental.png" )}
-      title=" Rental App"
-      sname="Flutter Rental Mobile App"
-      link="https://www.youtube.com/watch?v=Czr1pspCsjc"
+      title=" Leasing Application"
+      sname="Flutter application"
+      link="https://flutter-rental-app.netlify.app"
     />
     
      <Card
       imgsrc={require("./assets/tow.png" )}
-      title=" Food App & Chefs Bookings"
-      sname="Flutter Mobile App"
-      link="https://www.netflix.com/in/"
+      title=" food ordering and chef bookings App"
+      sname="Flutter application"
+      link="https://flutter-chefs-booking.netlify.app"
     />
      <Card
       imgsrc={require("./assets/img.png" )}
-      title=" Flutter Ecommerce Car Collection"
-      sname="Flutter Mobile App"
-      link="https://www.netflix.com/in/"
+      title=" Vintage car collection app"
+      sname="Flutter application"
+      link="https://flutter-vintage-car-collection.netlify.app"
     />
      <Card
       imgsrc={require("./assets/cash wallet1 (1).png" )}
-      title=" Cash wallet"
-      sname="Flutter Mobile App"
-      link="https://www.netflix.com/in/"
+      title=" Loan monitoring tool"
+      sname="Flutter application"
+      link="https://flutter-loan-tracker.netlify.app"
+    />
+     <Card
+      imgsrc={require("./assets/moneyw.png" )}
+      title=" Expense monitoring application"
+      sname="Flutter application"
+      link="https://flutter-expensetracker-tracker.netlify.app"
+    />
+    <Card
+      imgsrc={require("./assets/auth.png" )}
+      title="Firebase for multi-authentication"
+      sname="Flutter application"
+      link="https://google-github-signup.netlify.app"
     />
      
     
