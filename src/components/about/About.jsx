@@ -13,15 +13,10 @@ const About = () => {
             <div className='about__data'>
                 <Info/>
                 <p className='about__description'>
-                    I'm a dynamic mobile and web Developer passionate about
-                    translating ideas into captivating digital experiences.
-                    With expertise in iOS,Android, and web technologies, I'm
-                    dedicated to crafting innovative solutions that engage
-                    users effectively.
-                    
+I am a dynamic mobile and web developer passionate about translating ideas into captivating digital experiences. With expertise in iOS, Android, and web technologies, I am dedicated to crafting innovative solutions that engage users effectively.  
                 </p>
                 <a download="" 
-                // href={""} 
+                 /* href={""}  */
                 className='button button--flex'>Download CV
                 <svg
                 class="button__icon"

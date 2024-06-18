@@ -56,8 +56,10 @@ const Data = () => {
     </h1> */}
     <h3 className="home__subtitle">Mobile & Frontend Developer</h3>
     <p className='home__description'>
-    Hi my name is Felizhieler Munene.Software Engineer. I build cool stuff to craft seamless
-        digital experience.I blend innovation with usability.Let's connect and innovate together.
+    
+<p>Hi there,</p>
+
+I'm Felizhieler Munene, a Software Engineer focused on crafting seamless digital experiences by building innovative solutions that blend usability with innovation. Let's connect and collaborate to create something remarkable together!.
     </p>
     <a href='#contact' className='button button--flex'>
         Say Hello 

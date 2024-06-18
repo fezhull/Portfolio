@@ -1,27 +1,27 @@
 import React from'react';
 import "./services.css";
-import Image1 from "../../assets/service-1.svg";
-import Image2 from "../../assets/service-2.svg";
-import Image3 from "../../assets/service-3.svg";
+import Image1 from "../../assets/service-1.png";
+import Image2 from "../../assets/service-2.png";
+import Image3 from "../../assets/service-3.png";
 
 const data = [
     {
         id:1,
         image:Image1,
         title: "Mobile Development",
-        description:"3 years of experience in Providing quality work,modern and moible-ready application that will help you reach all of your marketing. "
+        description:"With over three years of experience, I specialize in delivering high-quality, modern, and mobile-ready applications that effectively support your marketing objectives. "
     },
     {
         id:2,
         image:Image2,
         title: "Frontend Development",
-        description:"Services with more than 4 years of experience. developing modern and mobile-ready website with intuitive interfaces and delighful user experiences. "
+        description:"I offer over four years of expertise in developing modern, mobile-ready websites with intuitive interfaces and delightful user experiences. "
     },
     {
         id:3,
         image:Image3,
         title: "Api Development",
-        description:"Developing a highly secure, fast and scalable APIs both REST and GraphQL with more than 3 years of experience. Providing quality work to clients and companies. "
+        description:"Experienced API Developer with 3+ years of expertise crafting secure, and scalable REST and GraphQL APIs, committed to delivering high-quality solutions that meet diverse client and organizational needs efficiently. "
     },
 ]
 
