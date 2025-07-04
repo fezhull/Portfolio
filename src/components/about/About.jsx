@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from "../../assets/about2.jpeg"
-// import Cv from "../../assets/John-Cv.pdf"
+ import Cv from "../../assets/John-Cv.pdf"
 import Info from './Info'
 const About = () => {
   return (
@@ -15,9 +15,11 @@ const About = () => {
                 <p className='about__description'>
 I am a dynamic mobile and web developer passionate about translating ideas into captivating digital experiences. With expertise in iOS, Android, and web technologies, I am dedicated to crafting innovative solutions that engage users effectively.  
                 </p>
-                <a download="" 
-                 /* href={""}  */
-                className='button button--flex'>Download CV
+                <a  
+                  href={Cv} 
+                  target='_blank'
+                  rel='noopener noreferrer'
+                className='button button--flex'>View CV
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
